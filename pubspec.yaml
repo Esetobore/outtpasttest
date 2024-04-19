@@ -1,0 +1,57 @@
+name: outtapptest
+description: "Flutter Assessment"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# Utility Packages
+  http:
+  smooth_page_indicator:
+  carousel_slider:
+  flutter_spinkit:
+
+
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter:
+  iconsax:
+  outline_gradient_button:
+  shared_preferences:
+
+
+# State Management
+  get:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints:
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Sora
+      fonts:
+        - asset: assets/fonts/Sora-Bold.ttf
+        - asset: assets/fonts/Sora-Light.ttf
+        - asset: assets/fonts/Sora-Regular.ttf
