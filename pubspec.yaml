@@ -18,6 +18,7 @@ dependencies:
   smooth_page_indicator:
   carousel_slider:
   flutter_spinkit:
+  flutter_native_splash:
 
 
   cupertino_icons: ^1.0.6
